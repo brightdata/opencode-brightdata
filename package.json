@@ -1,5 +1,5 @@
 {
-  "name": "opencode-brightdata",
+  "name": "@brightdata/opencode-brightdata",
   "version": "1.0.0",
   "description": "Bright Data plugin for OpenCode - web scraping, search, structured data extraction from 40+ platforms via the Bright Data CLI",
   "type": "module",
