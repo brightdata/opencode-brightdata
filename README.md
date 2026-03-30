@@ -2,6 +2,8 @@
 
 OpenCode plugin for [Bright Data](https://brightdata.com) — gives your AI agent reliable web scraping, search, and structured data extraction from 40+ platforms via the [Bright Data CLI](https://github.com/nichochar/brightdata-cli).
 
+**Free tier: 5,000 requests/month** across all commands - search, scrape, pipelines, and more. No credit card required.
+
 ## Installation
 
 Add the plugin to your `opencode.json` (or global `~/.config/opencode/opencode.json`):
