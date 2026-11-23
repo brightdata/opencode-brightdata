@@ -22,7 +22,7 @@ fi
 
 echo "Scraping HTML from: $URL" >&2
 
-curl -k -s -X POST 'https://api.brightdata.com/request' \
+curl -s -X POST 'https://api.brightdata.com/request' \
     -H "Authorization: Bearer $BRIGHTDATA_API_KEY" \
     -H 'Content-Type: application/json' \
     -d "{\"zone\":\"$BRIGHTDATA_UNLOCKER_ZONE\",\"url\":\"$URL\",\"format\":\"raw\"}" \
